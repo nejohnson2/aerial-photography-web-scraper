@@ -1,0 +1,42 @@
+# Cache files
+http_cache.sqlite
+*.sqlite
+
+# Test/temp files
+test_download.bin
+*.part
+*.tmp
+
+# Downloaded data (large files)
+output/
+
+# Browser cookies (contains auth tokens)
+browser_cookies.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.eggs/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
