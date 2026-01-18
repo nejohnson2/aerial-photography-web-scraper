@@ -5,3 +5,10 @@ tqdm>=4.64.0
 
 # OCR (optional - only needed for ocr_extractor.py)
 easyocr>=1.7.0
+
+# LLM coordinate estimation (for utilities/llm_coordinates.py)
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Map visualization (for utilities/visualize_coordinates.py)
+folium>=0.14.0
